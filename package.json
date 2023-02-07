@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "name": "sanchez-salguero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoSANSAL96/Proyecto-Final-Vespa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoSANSAL96/Proyecto-Final-Vespa/issues"
+  },
+  "homepage": "https://github.com/RodrigoSANSAL96/Proyecto-Final-Vespa#readme",
+  "description": ""
+}
