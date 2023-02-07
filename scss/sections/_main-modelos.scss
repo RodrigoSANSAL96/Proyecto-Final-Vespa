@@ -1,0 +1,26 @@
+/* MODELOS */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(14, 500px);
+    padding: 20px 0px 20px 0px;
+}
+
+.grid-container section {
+    display: grid;
+    justify-items: center;
+    align-content: space-around;
+    margin: 20px;
+}
+
+.modelos {
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+}
+
+.info {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}

@@ -1,12 +1,11 @@
 @import './sections/header';
 @import './sections/main-index';
+@import './sections/main-empresa';
+@import './sections/main-modelos';
+@import './sections/main-accesorios';
+@import './sections/main-contacto';
 @import './sections/footer';
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-}
+@import './sections/utilidades/reset';
 
 .logo {
     width: 150px;
@@ -36,11 +35,6 @@ body {
 
 
 /* EMPRESA */
-
-.historia-vespa {
-    width: 100%;
-    padding: 20px 0px 20px 0px;
-}
 
 .video {
     text-align: center;
