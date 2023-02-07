@@ -10,12 +10,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<!-- CSS -->
+<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header class="header"
+    <header class="header">
         <a href="./index.html">
             <img class="logo" src="./recursos/logo-vespa.png" alt="Logo marca Vespa">
         </a>
@@ -40,54 +44,66 @@
                     Ahora prepárate a conocer 5 poderosas razones para optar por una moto con clase.
                 </h3>
                 <ul>
-                    <li class="texto">Son útiles y fáciles de estacionar</li>
-                    <p class="párrafo-1">Por su tamaño compacto y ligero, las motos Vespa cuentan con un máximo
-                        beneficio.
-                        Las motonetas Vespa son totalmente adaptables a entornos donde no existe mucho espacio;
-                        recuerda que fueron diseñadas cuando las calles eran muy angostas. Podrás parquear sin
-                        dificultades,
-                        así que comienza a planificar tu reunión de trabajo o simplemente una gran aventura.</p>
-                    <li class="texto">Son motonetas italianas y vintage</li>
-                    <p class="párrafo-1">Desde el corazón de Pontedera en Italia, las motonetas Vespa aún
-                        conservan
-                        su
-                        imagen cautivadora,
-                        como aquel prototipo de 1946. Esto le brinda en la era actual, un aire vintage que
-                        definitivamente
-                        te diferenciará del resto.
-                        Maneja con orgullo una pieza de colección italiana soportada por la calidad, garantía,
-                        potencia
-                        y
-                        eficiencia.
-                        Tu satisfacción y seguridad son lo más importante, elige las motos Vespa.</p>
-                    <li class="texto">Son Espaciosas</li>
-                    <p class="párrafo-1">Las motonetas Vespa están diseñadas para que disfrutes de gran
-                        comodidad
-                        mientras
-                        conduces.
-                        Y si quieres trasladar a tu acompañante habrá espacio suficiente.
-                        Además, ¿sabías que estas maquinarias de 2 ruedas poseen un funcional baúl para
-                        almacenar lo
-                        que
-                        quieras?</p>
-                    <li class="texto">Son fáciles de conducir</li>
-                    <p class="párrafo-1">Las dimensiones de las motos Vespa te permitirán controlar y girar el
-                        volante,
-                        además de sortear
-                        el
-                        tráfico con gran éxito.
-                        Son muy fáciles de manejar, no son pesadas y poseen alta potencia y cilindrada.
-                        Cuentan con sistema antibloqueo de frenos ABS, sistema de encendido automático de luces
-                        e
-                        iluminación diurna.</p>
-                    <li class="texto">Generan ahorro en combustible</li>
-                    <p class="párrafo-1">Las motos Vespa cuentan con un consumo de gasolina muy aceptable y
-                        funcional,
-                        brindándote ahorro
-                        en
-                        comparación con otras motonetas. Hay modelos más que eficientes, que además cuentan con
-                        menores
-                        emisiones de CO2.</p>
+                    <div class="d-flex flex-column mb-3">
+                        <div class="p-2">
+                            <li class="texto">Son útiles y fáciles de estacionar</li>
+                            <p class="párrafo-1">Por su tamaño compacto y ligero, las motos Vespa cuentan con un máximo
+                                beneficio.
+                                Las motonetas Vespa son totalmente adaptables a entornos donde no existe mucho espacio;
+                                recuerda que fueron diseñadas cuando las calles eran muy angostas. Podrás parquear sin
+                                dificultades,
+                                así que comienza a planificar tu reunión de trabajo o simplemente una gran aventura.</p>
+                        </div>
+                        <div class="p-2">
+                            <li class="texto">Son motonetas italianas y vintage</li>
+                            <p class="párrafo-1">Desde el corazón de Pontedera en Italia, las motonetas Vespa aún
+                                conservan
+                                su
+                                imagen cautivadora,
+                                como aquel prototipo de 1946. Esto le brinda en la era actual, un aire vintage que
+                                definitivamente
+                                te diferenciará del resto.
+                                Maneja con orgullo una pieza de colección italiana soportada por la calidad, garantía,
+                                potencia
+                                y
+                                eficiencia.
+                                Tu satisfacción y seguridad son lo más importante, elige las motos Vespa.</p>
+                        </div>
+                        <div class="p-2">
+                            <li class="texto">Son Espaciosas</li>
+                            <p class="párrafo-1">Las motonetas Vespa están diseñadas para que disfrutes de gran
+                                comodidad
+                                mientras
+                                conduces.
+                                Y si quieres trasladar a tu acompañante habrá espacio suficiente.
+                                Además, ¿sabías que estas maquinarias de 2 ruedas poseen un funcional baúl para
+                                almacenar lo
+                                que
+                                quieras?</p>
+                        </div>
+                        <div class="p-2">
+                            <li class="texto">Son fáciles de conducir</li>
+                            <p class="párrafo-1">Las dimensiones de las motos Vespa te permitirán controlar y girar el
+                                volante,
+                                además de sortear
+                                el
+                                tráfico con gran éxito.
+                                Son muy fáciles de manejar, no son pesadas y poseen alta potencia y cilindrada.
+                                Cuentan con sistema antibloqueo de frenos ABS, sistema de encendido automático de luces
+                                e
+                                iluminación diurna.</p>
+                        </div>
+                        <div class="p-2">
+                            <li class="texto">Generan ahorro en combustible</li>
+                            <p class="párrafo-1">Las motos Vespa cuentan con un consumo de gasolina muy aceptable y
+                                funcional,
+                                brindándote ahorro
+                                en
+                                comparación con otras motonetas. Hay modelos más que eficientes, que además cuentan con
+                                menores
+                                emisiones de CO2.</p>
+                        </div>
+                    </div>
                 </ul>
                 <img class="historia-vespa" src="./recursos/historiadelavespa.jpg" alt="Historia de la Vespa">
                 <h2 class="subtítulo">¿Quieres elegir la tuya? Descubre la que mejor se adapte a ti.</h2>

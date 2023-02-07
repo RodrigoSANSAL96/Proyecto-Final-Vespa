@@ -281,6 +281,12 @@ h1 {
     height: 350px;
     width: 400px;
     margin: 20px; }
+  /* Animación index */
+  .p-2 {
+    margin: 20px;
+    animation-name: animacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; }
   /* Animación */
   h1 {
     margin: 20px;
