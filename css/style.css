@@ -51,7 +51,8 @@ h2 a:hover {
   font-weight: bold;
   font-size: 25px;
   padding: 10px;
-  font-family: 'PT Sans', sans-serif; }
+  font-family: 'PT Sans', sans-serif;
+  text-align: center; }
 
 .historia-vespa {
   width: 100%;
@@ -66,20 +67,20 @@ h2 a:hover {
   text-align: center; }
 
 .fábrica-1 {
-  height: 500px; }
+  height: 500px;
+  margin: 10px 0px 20px 0px; }
 
 /* MODELOS */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(14, 500px);
+  grid-template-rows: repeat(14, 550px);
   padding: 20px 0px 20px 0px; }
 
 .grid-container section {
   display: grid;
   justify-items: center;
-  align-content: space-around;
-  margin: 20px; }
+  align-content: space-around; }
 
 .modelos {
   height: 400px;
@@ -213,7 +214,8 @@ footer {
   background-color: #a0ca92;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  box-shadow: 0px -10px 15px black; }
 
 .pie-pagina {
   justify-content: space-between;
@@ -241,6 +243,9 @@ body {
   font-family: sans-serif;
   font-family: 'PT Sans', sans-serif;
   padding: 0px 0px 20px 0px; }
+
+.p-5 {
+  background-color: #a0ca92; }
 
 /* ANIMACIONES */
 h1 {
@@ -371,9 +376,8 @@ h1 {
   .video1 {
     width: 100vw; }
   .fábrica-1 {
-    margin: 10px 0px 10px 0px;
     height: 200px;
-    width: 100vw; }
+    width: 250px; }
   /* Modelos */
   .modelos {
     height: 270px;
