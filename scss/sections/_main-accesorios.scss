@@ -3,6 +3,7 @@
 .container {
     margin: 10px;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -22,105 +23,141 @@
 
 .img-1 {
     grid-area: img-1;
+    margin: 20px;
 }
 
 .texto-1 {
     grid-area: texto-1;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-2 {
     grid-area: img-2;
+    margin: 20px;
 }
 
 .texto-2 {
     grid-area: texto-2;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-3 {
     grid-area: img-3;
+    margin: 20px;
 }
 
 .texto-3 {
     grid-area: texto-3;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-4 {
     grid-area: img-4;
+    margin: 20px;
 }
 
 .texto-4 {
     grid-area: texto-4;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-5 {
     grid-area: img-5;
+    margin: 20px
 }
 
 .texto-5 {
     grid-area: texto-5;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-6 {
     grid-area: img-6;
+    margin: 20px;
 }
 
 .texto-6 {
     grid-area: texto-6;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-7 {
     grid-area: img-7;
+    margin: 20px;
 }
 
 .texto-7 {
     grid-area: texto-7;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-8 {
     grid-area: img-8;
+    margin: 20px;
 }
 
 .texto-8 {
     grid-area: texto-8;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-9 {
     grid-area: img-9;
+    margin: 20px;
 }
 
 .texto-9 {
     grid-area: texto-9;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-10 {
     grid-area: img-10;
+    margin: 20px;
 }
 
 .texto-10 {
     grid-area: texto-10;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-11 {
     grid-area: img-11;
+    margin: 20px;
 }
 
 .texto-11 {
     grid-area: texto-11;
+    margin: 20px;
+    padding: 20px;
 }
 
 .img-12 {
     grid-area: img-12;
+    margin: 20px;
 }
 
 .texto-12 {
     grid-area: texto-12;
+    margin: 20px;
+    padding: 20px;
 }
 
 
 .accesorios__img {
-    padding: 10px 0px 10px 100px;
-    width: 300px;
-    height: 300px;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
 }
 
 .accesorios__lista {
@@ -130,4 +167,7 @@
 
 .accesorios__lista li {
     margin: 10px;
+}
+.border{
+    background-color: #a0ca92;
 }

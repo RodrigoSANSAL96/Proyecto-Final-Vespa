@@ -58,6 +58,9 @@ h2 a:hover {
   width: 100%;
   padding: 20px 0px 20px 0px; }
 
+.p-5 {
+  background-color: #a0ca92; }
+
 /* EMPRESA */
 .video {
   text-align: center; }
@@ -69,6 +72,9 @@ h2 a:hover {
 .fábrica-1 {
   height: 500px;
   margin: 10px 0px 20px 0px; }
+
+.p-1 {
+  background-color: #a0ca92; }
 
 /* MODELOS */
 .grid-container {
@@ -91,90 +97,131 @@ h2 a:hover {
   text-align: center;
   font-family: 'PT Sans', sans-serif; }
 
+.p-2 {
+  background-color: #a0ca92;
+  margin: 20px; }
+
 /* ACCESORIOS */
 .container {
   margin: 10px;
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "img-1 texto-1 texto-1" "img-2 texto-2 texto-2" "img-3 texto-3 texto-3" "img-4 texto-4 texto-4" "img-5 texto-5 texto-5" "img-6 texto-6 texto-6" "img-7 texto-7 texto-7" "img-8 texto-8 texto-8" "img-9 texto-9 texto-9" "img-10 texto-10 texto-10" "img-11 texto-11 texto-11" "img-12 texto-12 texto-12"; }
 
 .img-1 {
-  grid-area: img-1; }
+  grid-area: img-1;
+  margin: 20px; }
 
 .texto-1 {
-  grid-area: texto-1; }
+  grid-area: texto-1;
+  margin: 20px;
+  padding: 20px; }
 
 .img-2 {
-  grid-area: img-2; }
+  grid-area: img-2;
+  margin: 20px; }
 
 .texto-2 {
-  grid-area: texto-2; }
+  grid-area: texto-2;
+  margin: 20px;
+  padding: 20px; }
 
 .img-3 {
-  grid-area: img-3; }
+  grid-area: img-3;
+  margin: 20px; }
 
 .texto-3 {
-  grid-area: texto-3; }
+  grid-area: texto-3;
+  margin: 20px;
+  padding: 20px; }
 
 .img-4 {
-  grid-area: img-4; }
+  grid-area: img-4;
+  margin: 20px; }
 
 .texto-4 {
-  grid-area: texto-4; }
+  grid-area: texto-4;
+  margin: 20px;
+  padding: 20px; }
 
 .img-5 {
-  grid-area: img-5; }
+  grid-area: img-5;
+  margin: 20px; }
 
 .texto-5 {
-  grid-area: texto-5; }
+  grid-area: texto-5;
+  margin: 20px;
+  padding: 20px; }
 
 .img-6 {
-  grid-area: img-6; }
+  grid-area: img-6;
+  margin: 20px; }
 
 .texto-6 {
-  grid-area: texto-6; }
+  grid-area: texto-6;
+  margin: 20px;
+  padding: 20px; }
 
 .img-7 {
-  grid-area: img-7; }
+  grid-area: img-7;
+  margin: 20px; }
 
 .texto-7 {
-  grid-area: texto-7; }
+  grid-area: texto-7;
+  margin: 20px;
+  padding: 20px; }
 
 .img-8 {
-  grid-area: img-8; }
+  grid-area: img-8;
+  margin: 20px; }
 
 .texto-8 {
-  grid-area: texto-8; }
+  grid-area: texto-8;
+  margin: 20px;
+  padding: 20px; }
 
 .img-9 {
-  grid-area: img-9; }
+  grid-area: img-9;
+  margin: 20px; }
 
 .texto-9 {
-  grid-area: texto-9; }
+  grid-area: texto-9;
+  margin: 20px;
+  padding: 20px; }
 
 .img-10 {
-  grid-area: img-10; }
+  grid-area: img-10;
+  margin: 20px; }
 
 .texto-10 {
-  grid-area: texto-10; }
+  grid-area: texto-10;
+  margin: 20px;
+  padding: 20px; }
 
 .img-11 {
-  grid-area: img-11; }
+  grid-area: img-11;
+  margin: 20px; }
 
 .texto-11 {
-  grid-area: texto-11; }
+  grid-area: texto-11;
+  margin: 20px;
+  padding: 20px; }
 
 .img-12 {
-  grid-area: img-12; }
+  grid-area: img-12;
+  margin: 20px; }
 
 .texto-12 {
-  grid-area: texto-12; }
+  grid-area: texto-12;
+  margin: 20px;
+  padding: 20px; }
 
 .accesorios__img {
-  padding: 10px 0px 10px 100px;
-  width: 300px;
-  height: 300px; }
+  padding: 10px;
+  width: 400px;
+  height: 400px; }
 
 .accesorios__lista {
   list-style: square;
@@ -182,6 +229,9 @@ h2 a:hover {
 
 .accesorios__lista li {
   margin: 10px; }
+
+.border {
+  background-color: #a0ca92; }
 
 /* CONTACTO */
 .contacto {
@@ -244,9 +294,6 @@ body {
   font-family: 'PT Sans', sans-serif;
   padding: 0px 0px 20px 0px; }
 
-.p-5 {
-  background-color: #a0ca92; }
-
 /* ANIMACIONES */
 h1 {
   margin: 20px;
@@ -302,7 +349,7 @@ h1 {
       transform: translateX(25px); } }
   /* Accesorios */
   .accesorios__img {
-    padding: 10px 0px 10px 20px;
+    padding: 10px 10px 10px 10px;
     width: 200px;
     height: 200px; }
   /* Contacto */
@@ -376,8 +423,8 @@ h1 {
   .video1 {
     width: 100vw; }
   .fábrica-1 {
-    height: 200px;
-    width: 250px; }
+    height: 300px;
+    width: 350px; }
   /* Modelos */
   .modelos {
     height: 270px;
@@ -385,16 +432,14 @@ h1 {
     margin: 20px 0px 20px 0px; }
   /* Accesorios */
   .accesorios__img {
-    margin: 20px;
-    width: 150px;
-    height: 150px; }
+    margin: 19px 19px 19px 0px;
+    width: 250px;
+    height: 250px; }
   .container {
-    margin: 10px;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr;
-    grid-template-areas: "img-1 texto-1 texto-1" "img-2 texto-2 texto-2" "img-3 texto-3 texto-3" "img-4 texto-4 texto-4" "img-5 texto-5 texto-5" "img-6 texto-6 texto-6" "img-7 texto-7 texto-7" "img-8 texto-8 texto-8" "img-9 texto-9 texto-9" "img-10 texto-10 texto-10" "img-11 texto-11 texto-11" "img-12 texto-12 texto-12"; }
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   /* Contacto */
   .contacto {
     text-align: center;
