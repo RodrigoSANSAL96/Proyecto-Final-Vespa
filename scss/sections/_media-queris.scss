@@ -81,11 +81,12 @@
         margin: 0;
         background-color: #a0ca92;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
         height: 80px;
         justify-content: center;
         align-content: center;
+        align-items: center;
         padding: 10px;
         box-shadow: 15px 10px 15px black;
         max-width: 100vw;
@@ -105,7 +106,8 @@
     ul a {
         text-decoration: none;
         color: black;
-        padding-right: 20px;
+        padding-right: 10px;
+        font-size: small;
     }
     /* Footer */
     footer {
@@ -152,7 +154,7 @@
     }
     /* Accesorios */
     .accesorios__img {
-        margin: 19px 19px 19px 0px;
+        margin: 19px 19px 19px 19px;
         width: 250px;
         height: 250px;
     }
@@ -177,22 +179,18 @@
     @keyframes animacion {
         25% {
             color: grey;
-            transform: translateX(20px);
         }
     
         50% {
             color: black;
-            transform: translateX(-20px);
         }
     
         75% {
             color: grey;
-            transform: translateX(20px);
         }
     
         100% {
             color: black;
-            transform: translateX(-20px);
         }
     }
 
