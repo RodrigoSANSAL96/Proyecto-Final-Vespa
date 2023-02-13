@@ -153,7 +153,6 @@
     padding: 20px;
 }
 
-
 .accesorios__img {
     padding: 10px;
     width: 400px;
@@ -163,11 +162,11 @@
 .accesorios__lista {
     list-style: square;
     font-family: 'PT Sans', sans-serif;
+    li {
+        margin: 10px;
+    }
 }
 
-.accesorios__lista li {
-    margin: 10px;
-}
 .border{
-    background-color: #a0ca92;
+    background-color: $color-uno;
 }

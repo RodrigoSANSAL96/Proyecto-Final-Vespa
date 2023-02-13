@@ -1,10 +1,10 @@
 /* Footer */
 footer {
-    background-color: #a0ca92;
+    background-color: $color-uno;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px -10px 15px black;
+    box-shadow: 0px -10px 15px $color-tres;
 }
 
 .pie-pagina {

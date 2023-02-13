@@ -4,12 +4,12 @@
 
 
 body {
-    background-image: radial-gradient(#a0ca92, #C8CC92);
+    background-image: radial-gradient($color-uno, $color-dos);
 }
 
 
 .título {
-    color: black;
+    color: $color-tres;
     text-align: center;
     font-size: 40px;
     font-family: 'PT Sans', sans-serif;
@@ -17,13 +17,17 @@ body {
 }
 
 .subtítulo {
-    color: black;
+    color: $color-tres;
     text-align: center;
     font-family: sans-serif;
     font-family: 'PT Sans', sans-serif;
     padding: 0px 0px 20px 0px;
 }
-
+.párrafo-1 {
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+}
 /* ANIMACIONES */
 
 h1 {
@@ -35,22 +39,22 @@ h1 {
 
 @keyframes animacion {
     25% {
-        color: grey;
+        color: $color-cuatro;
         transform: translateX(100px);
     }
 
     50% {
-        color: black;
+        color: $color-tres;
         transform: translateX(-150px);
     }
 
     75% {
-        color: grey;
+        color: $color-cuatro;
         transform: translateX(25px);
     }
 
     100% {
-        color: black;
+        color: $color-tres;
         transform: translateX(25px);
     }
 }

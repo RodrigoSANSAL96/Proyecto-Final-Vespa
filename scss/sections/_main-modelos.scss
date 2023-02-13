@@ -5,14 +5,12 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(14, 550px);
     padding: 20px 0px 20px 0px;
+    section{
+        display: grid;
+        justify-items: center;
+        align-content: space-around;
+    }
 }
-
-.grid-container section {
-    display: grid;
-    justify-items: center;
-    align-content: space-around;
-}
-
 .modelos {
     height: 400px;
     width: 500px;
@@ -24,6 +22,6 @@
     font-family: 'PT Sans', sans-serif;
 }
 .p-2{
-    background-color: #a0ca92;
+    background-color: $color-uno;
     margin: 20px;
 }
