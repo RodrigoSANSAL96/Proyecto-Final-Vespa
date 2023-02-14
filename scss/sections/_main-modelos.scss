@@ -25,3 +25,34 @@
     background-color: $color-uno;
     margin: 20px;
 }
+/* Dispositio mediano */
+
+@media (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    /* Modelos */
+    .modelos {
+        height: 270px;
+        width: 320px;
+        margin: 20px 0px 20px 0px;
+    }
+}
+/* Dispoitivo pequeño */
+
+@media (max-width: 420px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }      
+    /* Modelos */
+    .modelos {
+        height: 150px;
+        width: 200px;
+        margin: 20px;
+    }
+    .info{
+        text-align: justify;
+    }
+}

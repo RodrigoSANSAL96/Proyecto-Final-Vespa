@@ -58,3 +58,77 @@ h1 {
         transform: translateX(25px);
     }
 }
+/* Dispositio mediano */
+
+@media (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    /* Animación */
+    h1 {
+        margin: 20px;
+        animation-name: animacion;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animacion {
+        25% {
+            color: $color-cuatro;
+            transform: translateX(1px);
+        }
+
+        50% {
+            color: $color-tres;
+            transform: translateX(-1px);
+        }
+
+        75% {
+            color: $color-cuatro;
+            transform: translateX(1px);
+        }
+
+        100% {
+            color: $color-tres;
+            transform: translateX(1px);
+        }
+    }
+}
+/* Dispoitivo pequeño */
+
+@media (max-width: 420px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }  
+    .logo{
+        margin: 5px 0px 0px 0px;
+        width: 80px;
+    } 
+    .subtítulo{
+        padding: 20px;
+    }
+    .texto{
+        padding: 20px;
+    }   
+    /* Animación */
+    @keyframes animacion {
+        25% {
+            color: $color-cuatro;
+        }
+    
+        50% {
+            color: $color-tres;
+        }
+    
+        75% {
+            color: $color-cuatro;
+        }
+    
+        100% {
+            color: $color-tres;
+        }
+    }
+
+}

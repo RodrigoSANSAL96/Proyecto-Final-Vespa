@@ -16,3 +16,32 @@
 .p-1{
     background-color: $color-uno;
 }
+/* Dispositio mediano */
+
+@media (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    /* Empresa */
+    .fábrica-1 {
+        height: 350px;
+    }
+}
+/* Dispoitivo pequeño */
+
+@media (max-width: 420px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }      
+    /* Empresa */
+    .video1{
+        width: 100vw;
+
+    }
+    .fábrica-1 {
+        height: 300px;
+        width: 350px
+    }
+}
