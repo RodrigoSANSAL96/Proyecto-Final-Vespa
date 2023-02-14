@@ -7,6 +7,7 @@
     }
     /* Header */
     .logo{
+        margin: 5px 0px 0px 0px;
         width: 100px;
     }
     header {
@@ -65,11 +66,10 @@
         height: 350px;
     }
     /* Modelos */
-
     .modelos {
-        height: 150px;
-        width: 200px;
-        margin: 20px;
+        height: 270px;
+        width: 320px;
+        margin: 20px 0px 20px 0px;
     }
     /* Animación */
     h1 {
@@ -114,7 +114,7 @@
         background-color: $color-uno;
         border: 2px solid $color-tres;
         font-family: 'PT Sans', sans-serif;
-        input{
+        .input{
             font-family: 'PT Sans', sans-serif;
         }
     }
@@ -127,6 +127,7 @@
         padding: 0px;
     }  
     .logo{
+        margin: 5px 0px 0px 0px;
         width: 80px;
     }
     /* Header */
@@ -202,9 +203,9 @@
     }
     /* Modelos */
     .modelos {
-        height: 270px;
-        width: 320px;
-        margin: 20px 0px 20px 0px;
+        height: 150px;
+        width: 200px;
+        margin: 20px;
     }
     .info{
         text-align: justify;
