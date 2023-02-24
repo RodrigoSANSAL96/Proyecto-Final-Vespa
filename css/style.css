@@ -67,7 +67,7 @@ h2 a:hover {
     font-family: sans-serif;
     font-weight: bold;
     font-size: larger;
-    align-items: center;
+    align-items: flex-start;
     max-width: 100vw;
     padding-left: 10px;
     font-size: 20px; }
@@ -202,7 +202,7 @@ h2 a:hover {
 
 .p-2 {
   background-color: #a0ca92;
-  margin: auto;
+  margin: auto auto 20px auto;
   max-width: 1200px; }
 
 /* Dispositio mediano */
